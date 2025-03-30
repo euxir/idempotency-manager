@@ -5,17 +5,7 @@ Includes techniques for achieving idempotency, chaos engineering validation, and
 
 外部APIとデータベースの整合性を保証するための設計パターン
 
-## TODO
-
-* [ ] 設計を k8s の OSS を参考にドキュメント化する
-* [ ] サンプル実装を行う
-* [ ] サンプル実装についてテストを実装する
-    * [ ] ユニットテスト
-    * [ ] E2E テスト
-    * [ ] パフォーマンステスト
-    * [ ] Fault Injection Testing (整合性を保証)
-* [ ] SDK の実装
-* [ ] 静的解析などのツールの導入
+形式証明 (TLA+) による設計のシーケンスの妥当性は、
 
 ## 楽観的アプローチ (Optimistic Approach)
 
